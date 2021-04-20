@@ -1,0 +1,17 @@
+Opis zadaće - samostalnog projekta za naredni mjesec dana:
+Slijedeći upustva iz Readme fajla iz repositorija postaviti aplikaciju na svoj računar (ovo možete raditi paralelno sa nekim od slijedećih koraka).
+Napraviti vlastiti repository na githabu - pozvati Enisa "ExtremeSoftwareGroup" u repository
+Dijelove zadataka raditi u posebnim branchevima i praviti PR na main
+Napraviti strukturu foldera za čuvanje keyworda, automatskih testova, manualnih testova, bugova, folder za ovaj opis zadatka, test plana, test reporta (test plan/report može imati više verzija kako odmičete sa radom, i svaku verziju spremajte u poseban fajl npr. test_plan_1_13Apr21.txt. Plan/report možete pisati u Wordu/Excelu ili jednostavno u običnom .txt fajlu)
+Napraviti Read.me file i po potrebi ga naknadno dorađivati - gledajte da sadržaj bude po uzoru na ozbiljne projekte a i da opisuje ono što vi imate u reposutoriju
+Napisati Test plan za testiranje aplikacije (za UI dio možete koristiti online aplikaciju i admin, a za API dio trebate proći Readme fajlove u folderima na repositoriju kako je to objašnjeno u glavnom readme fajlu repositorija)
+Napisati što više manualnih testova i prioretizirati ih (UI, API)
+Napisati 10ak bugova (ako ne postoje stvarni defekti, izmisliti neslaganje sa requirementima)
+Napisati automatske testove za APIje
+Napisati automatske UI testove za one manualne testove koje ste označili kao smoke testove ili prioritet1
+Izvršiti manualne i automatske testove, te napraviti na osnovu toga i ostalih podataka Test report
+UAT:
+Online verzija: https://automationintesting.online/#/
+Admin online verzije: https://automationintesting.online/#/admin (admin/password)
+Instrukcije za potavljanje aplikacije na vaš računar: https://github.com/mwinteringham/restful-booker-platform
+(Za one koji žele više, mogu proći sve isto za ovu aplikaciju (samo online): https://demoqa.com/books)
