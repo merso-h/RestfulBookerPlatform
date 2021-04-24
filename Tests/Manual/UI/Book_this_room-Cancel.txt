@@ -1,0 +1,4 @@
+*Book this room - cancel button*    (priority:LOW)
+1. User opens browser and navigates to RBP homepage - Website should successfully load
+2. User clicks on Book this room button - Calendar menu and customer details fields appear
+3. User clicks on Cancel button - Booking form is closed

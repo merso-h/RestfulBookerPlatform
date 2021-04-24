@@ -1,0 +1,5 @@
+Homepage Elements Check     (priority:LOW)
+1. User opens browser and navigates to RBP homepage - Website should successfully load
+2. User checks for Exploration, Automation, Infrastructure & Get Started paragraphs with icons - Sections should be visible
+3. User clicks on Let Me Hack button - top section with paragrapghs should collapse
+4. User checks for hero image, Rooms section, Contact & addres section, map & footer links- Sections should be visible

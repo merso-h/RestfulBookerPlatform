@@ -1,0 +1,15 @@
+*Book this room - Today+invalid data*   (priority:HIGH)
+1. User opens browser and navigates to RBP homepage - Website should successfully load
+2. User clicks on Book this room button - Calendar menu and customer details fields appear
+3. User User clicks on "Today" - Today tab is highlighted
+4. User doesn't enter any data and clicks on Book button - Multipple Error messages appear
+5. User enters one letter in first name field and clicks on Book button - Error message appears (3-18characters;blank)
+6. User enters one letter in last name field and clicks on Book button - Error message appears (3-30characters;blank)
+7. User enters three letters in first name and clicks on Book button - Error message for firstname dissappers
+8. User enters three letters in last name and clicks on Book button - Error message for lastname dissappers
+9. User enters random data in email field and clicks on Book button- Error message "must be a well-formed email address" appears
+10. User enters valid email address and clicks on Book button - Error message for email address dissappears
+11. User enters up to 11 letters and clicks on Book button - "Must not be null" and 11-21 characters error messages appear
+12. User enters more than 11 letters and clicks on Book button - "Must not be null" appears
+13. User enters up to 11 numbers and clicks on Book button - 11-21 characters error messages appear
+14. User enters more than 11 numbers and clicks on Book button - Reservation created and no more error messages appear

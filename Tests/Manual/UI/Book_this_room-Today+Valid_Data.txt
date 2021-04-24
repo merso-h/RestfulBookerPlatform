@@ -1,0 +1,6 @@
+*Book this room - Today+valid data*     (priority:HIGH)
+1. User opens browser and navigates to RBP homepage - Website should successfully load
+2. User clicks on Book this room button - Calendar menu and customer details fields appear
+3. User clicks on "Today" - Today tab is highlighted
+4. User enters first name, last name, email and phone number - All entered data should be displayed in the fields
+5. User clicks on Book button - Reservation is created
