@@ -1,5 +1,10 @@
 
-CHROME_BROWSER = "chrome"
-FIREFOX_BROWSER = "firefox"
+chrome = "chrome"
+firefox = "firefox"
+edge = "edge"
 
 URL = "https://automationintesting.online/#/"
+
+
+
+
