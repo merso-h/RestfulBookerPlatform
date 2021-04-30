@@ -1,0 +1,7 @@
+*Send message valid data*   (priority:LOW)
+1. User opens browser and navigates to RBP homepage - Website should successfully load
+2. User enters valid email - Email field is populated
+3. User enters valid phone number (at least 11 numbers) - Phone field is populated
+4. User enters valid subject (at leat 5 caracters) - Subject field is populated
+5. User enters valid message ( at least 20 characters) - Message field is populated
+6. User clicks on Submit button - Succes message appears

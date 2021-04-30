@@ -1,0 +1,11 @@
+*Send message invalid data*     (priority:LOW)
+1. User opens browser and navigates to RBP homepage - Website should successfully load
+2. User doesn't enter any data and clicks on Submit - Multiple error message appear
+3. User enters subject less than 5 letters and clicks on Submit button - Error message about 5-20 characters is visible
+4. User enters subject more than 5 letters and clicks on Submit button - Error about 5-20 letters dissapears
+5. User enters message less than 20 letters and clicks on Submit button - Error message about 20-2000 characters is visible
+6. User enters more than 20 letters and clicks on Submit button - Error message about 20-2000 characters disappears
+7. User enters invalid email and clicks on Submit button - Error message well formatted email is visible
+8 User enters valid email and clicks on Submit button - Error message well formatted email disappears
+9.User enters less than 11 numbers in phone field and clicks on Submit button - Error message about 11-20 characters is visible
+10.User enters more than 11 numbers in phone field and clicks on Submit button - Error message about 11-20 characters appears
