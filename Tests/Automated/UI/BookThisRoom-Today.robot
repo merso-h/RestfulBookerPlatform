@@ -8,7 +8,7 @@ Suite Teardown      Close browser
 
 *** Test Cases ***
 
-Book Room Today
+Book This Room - Today
     [Documentation]     Creates reservation by clicking on "Today" button above calendar
     Book This Room - Book Today
     page should contain  ${Success_MSG}
