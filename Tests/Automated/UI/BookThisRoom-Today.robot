@@ -2,22 +2,14 @@
 
 Resource            ../../../Keywords/RBP_Keywords.robot
 
-Suite Teardown      Close all browsers
+Suite Setup         run keyword     Open Browser to Homepage    chrome
+Suite Teardown      Close browser
 
 
 *** Test Cases ***
 
-Book Room Today (Chrome)
-    Open Chrome to Homepage
-    Book Today
+Book Room Today
+    [Documentation]     Creates reservation by clicking on "Today" button above calendar
+    Book This Room - Book Today
     page should contain  ${Success_MSG}
 
-Book Room Today (Firefox)
-    Open Firefox to Homepage
-    Book Today
-    page should contain  ${Success_MSG}
-
-Book Room Today (Edge)
-    Open Edge to Homepage
-    Book Today
-    page should contain  ${Success_MSG}

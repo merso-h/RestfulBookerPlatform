@@ -24,23 +24,14 @@ ${Day_selected_MSG}     Day Selected
 
 *** Keywords ***
 
-Open Chrome to Homepage
-    [Documentation]     Opens homepage in Chrome
-    open browser        ${URL}      browser=${chrome}
+Open Browser to Homepage
+    [Documentation]     Opens homepage in asked browser
+    [Arguments]         ${browser}
+    open browser        ${URL}      browser=${browser}
     maximize browser window
 
-Open Firefox to Homepage
-    [Documentation]     Opens homepage in Firefox
-    open browser        ${URL}      browser=${firefox}
-    maximize browser window
 
-Open Edge to Homepage
-    [Documentation]     Opens homepage in Edge
-    open browser        ${URL}      browser=${edge}
-    maximize browser window
-#proizvoljno sam odabrao ova tri browsera kao neki vid requirement-a
-
-Book Today
+Book This Room - Book Today
     [Documentation]     Books a room Today by clicking on "Today" above calendar
     scroll element into view  ${BTN-Book_this_room}
     click element       ${BTN-Book_this_room}

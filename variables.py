@@ -1,7 +1,5 @@
 
-chrome = "chrome"
-firefox = "firefox"
-edge = "edge"
+browser = "${browser}"
 
 URL = "https://automationintesting.online/#/"
 
