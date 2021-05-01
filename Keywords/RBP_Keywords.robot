@@ -15,12 +15,20 @@ ${IN_Lastname}          css=.form-control.room-lastname
 ${IN_Email}             css=.form-control.room-email
 ${IN_Phone}             css=.form-control.room-phone
 ${BTN-Book}             css=.btn.btn-outline-primary.float-right.book-room
+${IN_SendMSGName}       id=name
+${IN_SendMSGEmail}      id=email
+${IN_SendMSGPhone}      id=phone
+${IN_SendMSGSubject}    id=subject
+${IN_SendMSGBox}        id=description
 ${Firstname}            John
 ${Lastname}             Doe
 ${Email}                johndoe1@example.com
 ${Phone}                +3879876543210
 ${Success_MSG}          Success
 ${Day_selected_MSG}     Day Selected
+${SubjectMSG}           Testing
+${Message_Box}          This is an automation test.
+${BTN_SubmitMSG}        id=submitContact
 
 *** Keywords ***
 
@@ -68,3 +76,14 @@ Choose Day in Calendar
     click element  xpath=//div[@class='rbc-date-cell']//a[text()='${Day}']
     page should contain  ${Day_selected_MSG}
 #Stranica ima bug, ne može se selektovati dan pa sam izmislio ovu Success poruku da mi može pasti test na odabiru dana
+
+Send Message
+    [Documentation]  Fills send message form with valid data and submits it
+    [Arguments]     ${name}=     ${email}=    ${phone}=    ${subject}=      ${message}=
+    input text      ${IN_SendMSGName}       ${name}
+    input text      ${IN_SendMSGEmail}      ${email}
+    input text      ${IN_SendMSGPhone}      ${phone}
+    input text      ${IN_SendMSGSubject}    ${subject}
+    input text      ${IN_SendMSGBox}        ${message}
+    click element   ${BTN_SubmitMSG}
+
