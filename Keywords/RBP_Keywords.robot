@@ -78,7 +78,7 @@ Choose Day in Calendar
 #Stranica ima bug, ne može se selektovati dan pa sam izmislio ovu Success poruku da mi može pasti test na odabiru dana
 
 Send Message
-    [Documentation]  Fills send message form with valid data and submits it
+    [Documentation]  Fills send message form and submits it
     [Arguments]     ${name}=     ${email}=    ${phone}=    ${subject}=      ${message}=
     input text      ${IN_SendMSGName}       ${name}
     input text      ${IN_SendMSGEmail}      ${email}
