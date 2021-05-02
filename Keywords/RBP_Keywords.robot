@@ -29,7 +29,10 @@ ${Day_selected_MSG}     Day Selected
 ${SubjectMSG}           Testing
 ${Message_Box}          This is an automation test.
 ${BTN_SubmitMSG}        id=submitContact
-
+${LNK_AdminPanel}       //a[@href="/#/admin"]
+${IN_Username}          id=username
+${IN_Password}          id=password
+${BTN_Login}            id=doLogin
 *** Keywords ***
 
 Open Browser to Homepage
@@ -87,3 +90,10 @@ Send Message
     input text      ${IN_SendMSGBox}        ${message}
     click element   ${BTN_SubmitMSG}
 
+Login
+    [Documentation]  Login as administrator
+    [Arguments]         ${username}     ${password}
+    click element       ${LNK_AdminPanel}
+    input text          ${IN_Username}      ${username}
+    input text          ${IN_Password}      ${password}
+    click element       ${BTN_Login}
