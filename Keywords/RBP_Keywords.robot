@@ -91,7 +91,7 @@ Send Message
     click element   ${BTN_SubmitMSG}
 
 Login
-    [Documentation]  Login as administrator
+    [Documentation]  Enter credentials and Log in
     [Arguments]         ${username}     ${password}
     click element       ${LNK_AdminPanel}
     input text          ${IN_Username}      ${username}
