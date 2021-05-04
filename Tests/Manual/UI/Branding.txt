@@ -1,0 +1,8 @@
+Branding (priority:low)
+Click on admin panel link - Login form appears
+User enters random username and password and clicks Login button - User should still stay on login page
+User enters valid admin username and password - user is logged in as admin and can see logout button
+User clicks on every field to validate edit option - User can see cursor when clicks in each field
+User makes changes to any field and clicks Submit - Branding updated popup appears
+User clicks OK - Popup is closed
+User returns to homepage - User can see changes he made in the field he had chosen.
