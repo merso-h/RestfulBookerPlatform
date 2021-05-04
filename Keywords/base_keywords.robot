@@ -5,15 +5,6 @@ Variables           ../variables.py
 
 *** Variables ***
 
-${BTN-Book_this_room}   css=.btn.btn-outline-primary.float-right.openBooking
-${BTN-Today}            //button[text()="Today"]
-${BTN-Calendar_Next}    //button[text()="Next"]
-${BTN-Calendar_Back}    //button[text()="Back"]
-${IN_Firstname}         css=.form-control.room-firstname
-${IN_Lastname}          css=.form-control.room-lastname
-${IN_Email}             css=.form-control.room-email
-${IN_Phone}             css=.form-control.room-phone
-${BTN-Book}             css=.btn.btn-outline-primary.float-right.book-room
 ${IN_SendMSGName}       id=name
 ${IN_SendMSGEmail}      id=email
 ${IN_SendMSGPhone}      id=phone
