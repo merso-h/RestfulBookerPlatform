@@ -12,11 +12,13 @@ Suite Teardown      Close browser
 
 Send Message with Valid Input
     [Documentation]   Fills the send message form and submits entered data
+    [Tags]            p1    positive    send message    contact
     Send Message            firstname=Johnny    email=johnny123@example.com    phone=+3870123456789    subject=Testing   message=This is an automation test.
     page should contain     Thanks for getting in touch
 
 Send Message with Invalid Input
     [Documentation]  Tests error message display after submitting invalid data
+    [Tags]            p1    negative    send message    contact
     Send Message            email=fakeemail.com    phone=38711     subject=Test     message=short message
     page should contain     must not be blank
     page should contain     must be a well-formed email address
