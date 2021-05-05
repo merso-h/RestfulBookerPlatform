@@ -1,0 +1,5 @@
+Create & Delete Room (priority:high)
+Click on admin panel link - Login form appears
+User enters valid admin username and password - user is logged in as admin and can see logout button
+User enters valid data for Room #, Type, Accessibility, Price and Room Details and clicks Create button - Room is created
+User clicks on "x" in the row for previously created Room - Room is deleted
