@@ -39,4 +39,6 @@ Create Room
 
 Delete Room
     [Documentation]  Deletes room for row number provided
-    [Arguments]     ${row#}
+    #[Arguments]     #${row#}
+    click element at coordinates  //*[contains(@id,'roomNumber255')]    1040    0
+
