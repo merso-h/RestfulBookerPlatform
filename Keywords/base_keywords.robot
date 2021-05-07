@@ -15,6 +15,7 @@ ${LNK_AdminPanel}       //a[@href="/#/admin"]
 ${IN_Username}          id=username
 ${IN_Password}          id=password
 ${BTN_Login}            id=doLogin
+${BTN_LetMeHack}        btn.btn-primary
 
 *** Keywords ***
 
@@ -23,6 +24,7 @@ Open Browser to Homepage
     [Arguments]         ${browser}
     open browser        ${URL}      browser=${browser}
     maximize browser window
+    click element       ${BTN_LetMeHack}
 
 Send Message
     [Documentation]  Fills send message form and submits it
