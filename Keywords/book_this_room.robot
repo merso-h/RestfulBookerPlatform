@@ -12,7 +12,7 @@ ${IN_Lastname}          css=.form-control.room-lastname
 ${IN_Email}             css=.form-control.room-email
 ${IN_Phone}             css=.form-control.room-phone
 ${BTN-Book}             css=.btn.btn-outline-primary.float-right.book-room
-${BTN_Close_BookSuccess}     css=.btn.btn-outline-primary
+${BTN_Close_BookSuccess}     //div[contains(@role,'dialog')]//button[text()='Close']
 
 *** Keywords ***
 

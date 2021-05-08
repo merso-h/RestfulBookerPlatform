@@ -5,15 +5,16 @@ Resource            ../../../Keywords/base_keywords.robot
 
 *** Test Cases ***
 
-Suite Setup         run keyword     Open Browser to Homepage    chrome
+Suite Setup         Open Browser to Homepage        chrome
 Suite Teardown      Close browser
 
 *** Variables ***
-${name}=    John Wayne
-${email}=   johnny123@example.com
-${phone}=   +3870123456789
-${subject}=  testing
-${message}=  This is an automation test.
+
+${name}     John Wayne
+${email}    johnny123@example.com
+${phone}    +3870123456789
+${subject}  testing
+${message}  This is an automation test.
 
 
 *** Test Cases ***
@@ -23,6 +24,7 @@ Send Message with Valid Input
     [Tags]            p1    positive    send message    contact
     Send Message      ${name}   ${email}    ${phone}    ${subject}  ${message}
     page should contain     Thanks for getting in touch
+    Go To   ${URL}
 
 Send Message with Invalid Input
     [Documentation]  Tests error message display after submitting invalid data in send message form
@@ -33,6 +35,7 @@ Send Message with Invalid Input
     page should contain     size must be between 5 and 100
     page should contain     size must be between 11 and 21
     page should contain     size must be between 20 and 2000
+    go to   ${URL}
 
 Send Message and Check Admin Inbox
     [Documentation]     Sends message through contact form and checks admin inbox
@@ -45,4 +48,5 @@ Send Message and Check Admin Inbox
     page should contain  ${name}
     page should contain  ${phone}
     page should contain  ${subject}
+
 
