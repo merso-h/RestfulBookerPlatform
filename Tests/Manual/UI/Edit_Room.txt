@@ -1,0 +1,7 @@
+Edit Room - priority:low
+Open browser and navigate to RBP homepage - RBP homepage is successfully loaded
+Click on Admin panel - Login form is shown
+User enters valid username and password - User is logged in as admin
+User clicks on any row in room section - User sees room details and Edit button
+User clicks on Edit button - User sees edit form
+User makes changes in random fields and clicks on Update button - Edit form is closed and user can see changes being saved

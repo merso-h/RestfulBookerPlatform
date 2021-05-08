@@ -1,0 +1,12 @@
+*Send message and check for message in admin inbox*   (priority:HIGH)
+1. User opens browser and navigates to RBP homepage - Website should successfully load
+2. User enters valid email - Email field is populated
+3. User enters valid phone number (at least 11 numbers) - Phone field is populated
+4. User enters valid subject (at leat 5 caracters) - Subject field is populated
+5. User enters valid message ( at least 20 characters) - Message field is populated
+6. User clicks on Submit button - Succes message appears
+7. User clicks on Admin panel link - Login form is displayed
+8. User enters admin's username and password - Admin is logged in
+9. Admin checks for red number next to inbox icon in top right corner - Red number indicating new message is visible
+10. Admin clicks on inbox icon - Admin sees new message sent from an user
+11. Admin clicks on message - Admin can see message content and user contact details
