@@ -12,6 +12,7 @@ ${IN_Lastname}          css=.form-control.room-lastname
 ${IN_Email}             css=.form-control.room-email
 ${IN_Phone}             css=.form-control.room-phone
 ${BTN-Book}             css=.btn.btn-outline-primary.float-right.book-room
+${BTN_Close_BookSuccess}     css=.btn.btn-outline-primary
 
 *** Keywords ***
 
@@ -38,7 +39,8 @@ Book This Room - Choose Reservation Date:
     click element       ${BTN-Book_this_room}
         FOR     ${month}     IN RANGE     0  11
                 ${Visible}=     run keyword and return status  page should contain  ${Month_YEAR}
-                run keyword if  '${Visible}'=="True"  run keyword  Select days in Calendar:   ${Day1}    ${Day2}
+                run keyword if  '${Visible}'=="True"  run keywords  Select days in Calendar:   ${Day1}    ${Day2}
+                ...     AND     exit for loop
                 ...  ELSE   click element  ${BTN-Calendar_Next}
         END
 

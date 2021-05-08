@@ -15,7 +15,8 @@ ${LNK_AdminPanel}       //a[@href="/#/admin"]
 ${IN_Username}          id=username
 ${IN_Password}          id=password
 ${BTN_Login}            id=doLogin
-${BTN_LetMeHack}        btn.btn-primary
+${BTN_LetMeHack}        css=btn.btn-primary
+${BTN_AdminInbox}       css=fa.fa-inbox
 
 *** Keywords ***
 
@@ -43,3 +44,12 @@ Login
     input text          ${IN_Username}      ${username}
     input text          ${IN_Password}      ${password}
     click element       ${BTN_Login}
+
+Check Admin Inbox
+    [Documentation]  Checks for new messages in admin inbox
+    [Arguments]     ${name}
+    click element  ${BTN_AdminInbox}
+    click element  //p[text()='${name}']
+
+
+
