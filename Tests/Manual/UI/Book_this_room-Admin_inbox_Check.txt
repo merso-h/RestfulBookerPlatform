@@ -1,0 +1,11 @@
+*Book this room - Custom date-Admin inbox*     (priority:HIGH)
+1. User opens browser and navigates to RBP homepage - Website should successfully load
+2. User clicks on Book this room button - Calendar menu and customer details fields appear
+3. User chooses days in calendar - Selected days are highlighted
+4. User enters first name, last name, email and phone number - All entered data should be displayed in the fields
+5. User clicks on Book button - Reservation is created, popup window is displayed
+6. User closes popup and clicks on Admin panel link - Login form is displayed
+7. User enters admin's username and password - Admin is logged in
+8. Admin checks for red number next to inbox icon in top right corner - Red number indicating new message is visible
+9. Admin clicks on inbox icon - Admin sees new booking from an user
+10. Admin clicks on message - Admin can see message content and booking details

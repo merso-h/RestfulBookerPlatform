@@ -1,6 +1,7 @@
 Admin Panel - Report (priority:high)
+Open browser and navigate to RBP homepage - RBP homepage is successfully loaded
 Click on admin panel link - Login form appears
 User enters valid admin username and password - user is logged in as admin and can see logout button
 User clicks on Report link - Calendar is displayed
 User selects days in calendar by highlighting them - Booking form is displayed
-User enters firstname, lastname, selects room, chooses deposit option and clicks on Book button - Chosen days in calendar are highlighted , firstname and lastname are visible
+User enters firstname, lastname, selects room, chooses deposit option and clicks on Book button - Chosen days in calendar are highlighted , firstname and lastname are visible in calendar

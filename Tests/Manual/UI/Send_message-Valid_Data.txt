@@ -1,4 +1,4 @@
-*Send message valid data*   (priority:LOW)
+*Send message valid data*   (priority:HIGH)
 1. User opens browser and navigates to RBP homepage - Website should successfully load
 2. User enters valid email - Email field is populated
 3. User enters valid phone number (at least 11 numbers) - Phone field is populated

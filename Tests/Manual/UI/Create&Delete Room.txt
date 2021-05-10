@@ -1,4 +1,5 @@
 Create & Delete Room (priority:high)
+Open browser and navigate to RBP homepage - RBP homepage is successfully loaded
 Click on admin panel link - Login form appears
 User enters valid admin username and password - user is logged in as admin and can see logout button
 User enters valid data for Room #, Type, Accessibility, Price and Room Details and clicks Create button - Room is created

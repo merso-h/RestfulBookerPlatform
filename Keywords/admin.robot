@@ -19,6 +19,7 @@ ${BTN_Book}             css=.btn.btn-outline-primary.float-right.book-room
 ${BTN_Cancel}           css=.btn.btn-outline-danger.float-right.book-room
 ${BTN-Today}            //button[text()='Today']
 ${BTN-Calendar_Next}    //button[text()='Next']
+
 *** Keywords ***
 
 Create Room
